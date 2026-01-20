@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // API gốc
-const SOURCE_API_URL = 'https://wtxmd52.tele68.com/v1/txmd5/sessions';
+const SOURCE_API_URL = 'https://taixiumd5.system32-cloudfare-356783752985678522.monster/api/md5luckydice/GetSoiCau';
 
 /**
  * Chuẩn hóa dữ liệu từ API gốc
@@ -70,3 +70,4 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`✅ Server chạy tại http://localhost:${PORT}`);
 });
+
